@@ -366,7 +366,7 @@
             var list = this.filter()
             var delta = this.delta
             var dbc = this.debounce
-
+            console.log(this.rtag);
             return h(this.rtag, {
                 'ref': 'vsl',
                 'style': {
